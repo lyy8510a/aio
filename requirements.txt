@@ -1,5 +1,0 @@
-pyzmq==17.0.0
-requests==2.18.4
-schedule==0.5.0
-zmq==0.0.0
-
