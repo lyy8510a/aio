@@ -1,0 +1,4 @@
+1、支持同时使用 pub-sub和push-proxy-pull 两种模式，pub-sub为sever->agent的数据发布模式,push-proxy-pull为agent->proxy->server的上交数据模式。
+2、需安装schedule和zmq,zmq用于通讯,schedule用于定时执行任务。定时任务可以在manage.py里面的run方法中引入。
+3、启动方式为：python manage.py start|stop|restart
+4、配置文件在每个项目中的config.py文件中
